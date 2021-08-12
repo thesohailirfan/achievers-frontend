@@ -1,0 +1,301 @@
+.cart {
+  position: relative;
+  width: 70vw;
+  border: 1px solid #ccc;
+  transform: scaleY(0.98);
+}
+.cart img {
+  margin: 0;
+  width: 14vw;
+  height: 15vw;
+}
+.amount span {
+  color: crimson;
+  padding: 0 20px;
+}
+.amount button {
+  width: 35px;
+  height: 35px;
+  border: 1px solid #777;
+}
+.delete {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  color: crimson;
+  font-weight: 900;
+  cursor: pointer;
+}
+.total {
+  position: absolute;
+  top: 20vw;
+  right: 3vw;
+  width: 23vw;
+  height: 15vw;
+  border: 1px solid #000;
+}
+.total--checkout {
+  margin-top: 1vw;
+  text-align: center;
+  font-size: 2vw;
+}
+.total h2 {
+  margin: 1.5vw 0 0.5vw;
+  text-align: center;
+  color: crimson;
+}
+
+.checkout-btn {
+  padding: 0.7vw 0.9vw;
+  background-color: red;
+  color: #fff;
+  cursor: pointer;
+  margin: 2.3vw auto 0;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.ach__successPg {
+  position: relative;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
+}
+.ach__success {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 13vw;
+  text-align: center;
+  margin-top: 15vw;
+}
+.ach__success--heading,
+.ach__success--thankYou {
+  font-size: 2.6vw;
+  text-align: center;
+}
+.ach__success--thankYou {
+  font-size: 1.15vw;
+  font-weight: bold;
+  margin: 1.5vw 0 2.5vw;
+}
+
+.ach__success--redirect {
+  position: relative;
+  font-size: 1.2vw;
+  background: rgb(0, 182, 0);
+  color: #fff;
+  height: 3.2vw;
+  width: 13.3vw;
+}
+.ach__successPg--logo {
+  position: relative;
+  width: 20vw;
+  left: 2.8vw;
+  top: 11vw;
+}
+.ach__success--phoneIcon,
+.ach__success--emailIcon {
+  position: relative;
+  top: 10.2vw;
+  left: 27.8vw;
+  width: 1.17vw;
+}
+.ach__success--emailIcon {
+  top: 7.5vw;
+  left: 82.85vw;
+  width: 1.3vw;
+}
+.ach__success--helpLine,
+.ach__success--email {
+  position: relative;
+  top: 8.68vw;
+  left: 49.5vw;
+  width: 32vw;
+  color: #0f6cd6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.91vw;
+  font-weight: 700;
+}
+.ach__success--email {
+  top: 6vw;
+  left: 84.9vw;
+  width: 14vw;
+}
+.cart--empty {
+  text-align: center;
+  font-size: 5.73vw;
+  margin: 5.5vw auto;
+}
+
+/* <==================================================================> */
+/* <============================Responsive============================> */
+/* <==================================================================> */
+@media (max-width: 768px) {
+  .cart--empty {
+    text-align: center;
+    font-size: 13vw;
+    margin: 36.5vw auto;
+  }
+  .cartProd {
+    position: relative;
+    height: 200vw;
+  }
+  .cart {
+    position: relative;
+    width: 70vw;
+    border: 1px solid #ccc;
+    transform: scaleY(0.98);
+  }
+  .cartProd--mobile {
+    top: 50vw;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 90vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  .cart img {
+    margin: 0;
+    width: 14vw;
+    height: 15vw;
+  }
+  .cartProd--mobile img {
+    width: 27vw;
+    height: 29vw;
+    position: relative;
+    left: 0;
+    top: 5vw;
+  }
+  .cartProd--mobile .box-detail {
+    font-size: 3.5vw;
+    width: 40vw;
+  }
+  .cartProd--mobile .box-detail h2 {
+    position: relative;
+    display: block;
+    top: 0vw;
+    font-size: 5vw;
+  }
+  .cartProd--mobile .box-detail h2,
+  .cartProd--mobile .box-detail h3,
+  .cartProd--mobile .box-detail p {
+    width: 50vw;
+  }
+  .amount span {
+    color: crimson;
+    padding: 0 20px;
+  }
+  .amount button {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #777;
+  }
+  .delete {
+    position: absolute;
+    top: 0;
+    right: 5px;
+    color: crimson;
+    font-weight: 900;
+    cursor: pointer;
+  }
+  .total {
+    position: absolute;
+    top: 3vw;
+    left: 5vw;
+    width: 90vw;
+    height: 40vw;
+    border: none;
+    border-bottom: 2px solid rgb(133, 133, 133);
+  }
+  .total--checkout {
+    margin-top: 1vw;
+    text-align: center;
+    font-size: 5vw;
+  }
+  .total h2 {
+    margin: 1.5vw 0 0.5vw;
+    text-align: center;
+    color: crimson;
+    font-size: 6.8vw;
+  }
+
+  .checkout-btn {
+    position: relative;
+    padding: 0;
+    width: 89vw;
+    height: 13.5vw;
+    font-size: 5.2vw;
+    border-radius: 15px;
+    margin: 2.3vw auto 3vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .ach__successPg {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+  }
+  .ach__success {
+    position: relative;
+    top: 45vw;
+    left: 0;
+    width: 100%;
+    height: 70vw;
+    text-align: center;
+    margin-top: 15vw;
+  }
+  .ach__success--heading,
+  .ach__success--thankYou {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 70vw;
+    font-size: 8vw;
+    text-align: center;
+  }
+  .ach__success--thankYou {
+    font-size: 5.6vw;
+    font-weight: 600;
+    margin: 6.5vw 0 8.5vw;
+  }
+
+  .ach__success--redirect {
+    position: relative;
+    font-size: 4.5vw;
+    background: rgb(0, 182, 0);
+    color: #fff;
+    height: 12.2vw;
+    width: 46.3vw;
+  }
+  .ach__successPg--logo {
+    position: relative;
+    width: 60vw;
+    left: 4.5vw;
+    top: 73vw;
+  }
+  .ach__success--phoneIcon,
+  .ach__success--emailIcon {
+    display: none;
+  }
+  .ach__success--helpLine,
+  .ach__success--email {
+    position: relative;
+    top: 76.68vw;
+    left: 4.5vw;
+    width: 89vw;
+    color: #0f6cd6;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4.3vw;
+    font-weight: 700;
+  }
+  .ach__success--email {
+    top: 79vw;
+  }
+}

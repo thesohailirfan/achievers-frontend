@@ -1,0 +1,85 @@
+* {
+  display: none;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+
+@font-face {
+  font-family: "Segoe UI", sans-serif;
+  src: url("./assets/fonts/Segoe\ UI.ttf");
+  font-weight: 400;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App {
+  margin: 0 auto;
+  padding: 0;
+  box-shadow: 0 0 35px #eee;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+#responsive--heading {
+  display: none;
+}
+
+/* ---------------- Header ------------ */
+@import url("./components/headers/header.css");
+
+/* ------------- Products -------------- */
+
+@import url("./components/mainpages/products/products.css");
+
+/* ---------------- Detail Product --------------- */
+@import url("./components/mainpages/detailProduct/detailProduct.css");
+
+/* ------------- Login/Register ----------------- */
+@import url("./components/mainpages/auth/login.css");
+
+/* ------------ Cart ------------------- */
+@import url("./components/mainpages/cart/cart.css");
+
+/* --------------- History ------------------- */
+@import url("./components/mainpages/history/history.css");
+
+/* ------------------ Categories ------------------ */
+@import url("./components/mainpages/categories/categories.css");
+
+/* ------------------- Create Product -------------- */
+@import url("./components/mainpages/createProduct/createProduct.css");
+
+/* ----------------- Responsive ------------------ */
+/* @media (max-width: 720px) {
+  .App {
+    display: none;
+  }
+  #responsive--heading {
+    display: inline;
+    position: absolute;
+    text-align: center;
+    font-size: 6vw;
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+} */

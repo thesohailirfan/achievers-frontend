@@ -1,0 +1,80 @@
+/* ------------ Filters Menu ----------------- */
+.filter_menu {
+  position: absolute;
+  width: 52.5%;
+  top: 8vw;
+  left: 44.3vw;
+  z-index: 1;
+}
+.nav__searchBar {
+  background-color: #010e26;
+  outline: none;
+  width: 51.5vw;
+  height: 2.6vw;
+  padding: 0 0.78vw;
+  position: relative;
+  border: none;
+  border-bottom: 2px solid #fff;
+}
+.nav__searchBar[type="text"] {
+  color: white;
+  font-size: 1.07vw;
+}
+.nav__searchBar::placeholder {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 1.07vw;
+  color: #fff;
+}
+.nav__searchIcon--a,
+.nav__searchIcon {
+  position: relative;
+  width: 1.43vw;
+  top: 0.03vw;
+  left: -0.8vw;
+}
+.nav__searchIcon {
+  position: absolute;
+}
+
+/* <--------------------------------Responsive------------------------------------> */
+
+@media (max-width: 768px) {
+  .filter_menu {
+    position: absolute;
+    width: 90.5%;
+    top: 24vw;
+    left: 4vw;
+    z-index: 1;
+    border-radius: 7px;
+  }
+  .nav__searchBar {
+    background-color: #fff;
+    outline: none;
+    width: 90.5vw;
+    height: 10.6vw;
+    padding: 0 0.78vw;
+    position: relative;
+    border: none;
+  }
+  .nav__searchBar[type="text"] {
+    color: #222;
+    font-size: 4.47vw;
+    padding-left: 3vw;
+  }
+  .nav__searchBar::placeholder {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 4.47vw;
+    color: #7d7d7d;
+  }
+  .nav__searchIcon--a,
+  .nav__searchIcon {
+    width: 5vw;
+    top: 0.23vw;
+    left: -4.2vw;
+  }
+  .nav__searchIcon--path {
+    fill: #595959;
+  }
+}

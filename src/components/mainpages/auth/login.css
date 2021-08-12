@@ -1,0 +1,92 @@
+.login-page {
+  max-width: 30vw;
+  border: 2px solid rgb(7, 131, 233);
+  border-radius: 5px;
+  padding: 30px;
+  margin: 10vw auto;
+}
+.login-page h2 {
+  text-align: center;
+  margin: 0 0 1vw;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #222;
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 700;
+}
+.login-page form input {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 5px 0 15px;
+  outline: rgb(3, 165, 206);
+  border: 1px solid rgb(7, 131, 233);
+}
+.login-page form .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-page form button {
+  height: 40px;
+  margin: 1.5vw auto 1vw;
+  padding: 0 5px;
+  width: 8.5vw;
+  background: #fc2b32;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.login-page form a {
+  color: darkorange;
+}
+.newUserPart {
+  margin-top: 0.5vw;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .login-page {
+    position: absolute;
+    max-width: 100vw;
+    border: none;
+    margin: 0;
+    top: 50%;
+    height: 130vw;
+    transform: translateY(-50%);
+  }
+  .login-page h2 {
+    margin: 0 0 5vw 0;
+    font-size: 7.5vw;
+  }
+  .login-page form input {
+    height: 12.5vw;
+    margin: 3.4vw 0;
+    padding: 0 5px 0 5vw;
+    font-size: 4.3vw;
+  }
+  .login-page form input::placeholder {
+    font-size: 4.3vw;
+  }
+  .login-page form .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .login-page form button {
+    height: 12vw;
+    margin: 4.5vw auto 5vw;
+    width: 38vw;
+    letter-spacing: 1.8px;
+    font-size: 4.45vw;
+  }
+  .newUserPart {
+    position: relative;
+    width: 50vw;
+    font-size: 4.6vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

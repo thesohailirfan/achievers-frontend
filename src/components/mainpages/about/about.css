@@ -1,0 +1,553 @@
+.ach__about--banner {
+  width: 100%;
+}
+.ach__about {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 85vw;
+}
+.ach__about--heading--aboutAch,
+.ach__about--heading--boardOfDirectors,
+.ach__about__contactUs--heading {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 2.8vw;
+  margin-top: 3.5vw;
+}
+.ach__about--heading--A {
+  color: #1d85ff;
+  font-family: "Montserrat", sans-serif;
+}
+.ach__about--heading--CHIEVERS {
+  color: #f92b32;
+  font-family: "Montserrat", sans-serif;
+}
+.ach__about--heading--StudyMat {
+  color: #b20000;
+  font-family: "Montserrat", sans-serif;
+}
+.ach__about--subHeading--corporateEstablishment,
+.ach__about--subHeading--achSoFar,
+.ach__about__contactUs--corporate,
+.ach__about__contactUs--p,
+.ach__about--aboutAch--pLeft,
+.ach__about__contactUs--p--Mobile {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.5vw;
+  margin-top: 1.3vw;
+}
+.ach__about--subHeadings {
+  margin-top: 2vw;
+}
+.ach__about--aboutAch--p,
+.ach__about--aboutAch--pLeft,
+.ach__about--aboutAch--li,
+.ach__about--whyAch--p {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: 600; */
+  font-size: 1.1vw;
+  line-height: 30px;
+  margin-top: 1vw;
+}
+.ach__about--aboutAch--pLeft {
+  width: 45vw;
+  font-weight: 400;
+}
+.ach__about--study1 {
+  position: absolute;
+  left: 45vw;
+  width: 36vw;
+  top: 49vw;
+}
+.ach__about--study2,
+.ach__about--study3,
+.ach__about--study4,
+.ach__about--study5,
+.ach__about--study6 {
+  position: relative;
+  width: 37vw;
+  height: 19vw;
+  object-fit: cover;
+  margin: auto;
+  margin-left: 0;
+}
+.ach__about--study6 {
+  width: 35vw;
+  height: 18vw;
+  margin-top: 1.5vw;
+}
+.ach__about--study3,
+.ach__about--study5 {
+  margin: auto;
+  width: 36vw;
+  height: 17vw;
+}
+.ach__about--whyAch--flexDiv,
+.ach__about--coreValuesflexDiv,
+.ach__about--coreValuesflexDiv2 {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.ach__about--coreValuesflexDiv,
+.ach__about--coreValuesflexDiv2 {
+  width: 65vw;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2.5vw;
+}
+.ach__about--coreValuesflexDiv2 {
+  width: 50vw;
+}
+.ach__about--whyAch--flexDiv--writing {
+  width: 45vw;
+}
+.ach__about--aboutAch--li {
+  position: relative;
+  left: 5vw;
+  width: 79vw;
+}
+.ach__about--whyAch--li,
+.ach__about--studyMat--li {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1vw;
+  margin-top: 1vw;
+  width: 40vw;
+}
+.ach__about--studyMat--ul {
+  margin-top: 1.3vw;
+}
+.ach__about--coreValues--meanings {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.45vw;
+}
+.ach__about--heading--boardOfDirectors {
+  font-size: 2.6vw;
+  text-align: center;
+}
+.ach__about__ourTeam--Heading {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.8vw;
+  margin: 5vw 0 0.5vw 0;
+  text-align: center;
+}
+.ach__about--president {
+  position: relative;
+  top: 3.5vw;
+  width: 21vw;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-bottom: 7vw;
+}
+.ach__about--presidentName,
+.ach__about--presidentDesignation,
+.ach__about--presidentContact {
+  position: relative;
+  /* width: 25vw; */
+  top: -0.5vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.15vw;
+  text-align: center;
+  color: #1d85ff;
+}
+.ach__about--presidentDesignation {
+  margin: 0.5vw 0;
+  color: #000;
+}
+.ach__about--presidentContact {
+  color: #f92b32;
+  font-weight: 600;
+  font-size: 1.03vw;
+}
+/* Academic Team */
+.ach__about__ourTeam--academicCoordinators {
+  position: relative;
+  width: 29vw;
+}
+.ach__about__ourTeam--academicCoordinatorsHeading {
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.3vw;
+  text-align: center;
+}
+.ach__about__ourTeam--TeamCards {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 88vw;
+  margin-bottom: 2vw;
+}
+.ach__about__ourTeam--academicCoordinatorsCard {
+  position: relative;
+  margin-top: 2.5vw;
+}
+.ach__about__ourTeam--academicCoordinatorsCardImg {
+  position: relative;
+  width: 8.1vw;
+  height: 8.1vw;
+  object-fit: cover;
+  left: 2.1vw;
+}
+.ach__about__ourTeam--academicCoordinatorsCardName,
+.ach__about__ourTeam--academicCoordinatorsCardDesignation,
+.ach__about__ourTeam--academicCoordinatorsCardContact,
+.ach__about__ourTeam--academicCoordinatorsCardContact--edit,
+.ach__about__ourTeam--academicCoordinatorsCardDesignation--Rashbehari,
+.ach__about__ourTeam--academicCoordinatorsCardDesignation--Simantini {
+  position: absolute;
+  margin-left: 3vw;
+  top: 0.98vw;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 1.1vw;
+  color: #004aad;
+}
+.ach__about__ourTeam--academicCoordinatorsCardDesignation,
+.ach__about__ourTeam--academicCoordinatorsCardContact,
+.ach__about__ourTeam--academicCoordinatorsCardContact--edit,
+.ach__about__ourTeam--academicCoordinatorsCardDesignation--Rashbehari,
+.ach__about__ourTeam--academicCoordinatorsCardDesignation--Simantini {
+  top: 2.7vw;
+  font-size: 0.93vw;
+  color: #000;
+  width: 12vw;
+  line-height: 1.3vw;
+}
+.ach__about__ourTeam--academicCoordinatorsCardContact,
+.ach__about__ourTeam--academicCoordinatorsCardContact--edit {
+  font-size: 0.9vw;
+  top: 5.5vw;
+  width: 18vw;
+  color: #f92b32;
+}
+.ach__about__ourTeam--academicCoordinatorsCardContact--edit {
+  top: 4.5vw;
+}
+.ach__about__ourTeam--academicCoordinatorsCardDesignation--Simantini {
+  width: 15vw;
+}
+
+/* Contact Us */
+.ach__about__contactUs {
+  width: 40vw;
+  height: 25vw;
+  display: inline-block;
+  margin: 2.5vw 0 3vw;
+}
+.ach__about__contactUs--heading {
+  font-size: 2.5vw;
+}
+.ach__about__contactUs--corporate,
+.ach__about__contactUs--p--Mobile {
+  font-size: 1.3vw;
+  color: #004aad;
+}
+.ach__about__contactUs--p--Mobile {
+  font-size: 1.1vw;
+  font-weight: 600;
+}
+.ach__about__contactUs--p {
+  font-size: 1.1vw;
+  font-weight: 600;
+  margin: 1vw 0;
+  width: 35vw;
+  line-height: 1.6vw;
+}
+.ach__about--map {
+  position: relative;
+  width: 44vw;
+  height: 25vw;
+  margin-bottom: 2.5vw;
+}
+
+/* Terms */
+.ach__terms--redPara {
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 2.5vw 0 3vw;
+  font-weight: 600;
+  text-align: center;
+  color: #f92b32;
+  width: 77vw;
+}
+.policy__banner {
+  width: 100%;
+}
+
+/* <==================================================================> */
+/* <============================Responsive============================> */
+/* <==================================================================> */
+@media (max-width: 768px) {
+  .ach__about--banner {
+    width: 210%;
+  }
+  .ach__about {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 84vw;
+  }
+  .ach__about--heading--aboutAch,
+  .ach__about--heading--boardOfDirectors,
+  .ach__about__contactUs--heading {
+    position: relative;
+    font-size: 7.5vw;
+    margin-top: 3.5vw;
+  }
+  .ach__about--subHeading--corporateEstablishment,
+  .ach__about--subHeading--achSoFar,
+  .ach__about__contactUs--corporate,
+  .ach__about__contactUs--p,
+  .ach__about--aboutAch--pLeft,
+  .ach__about__contactUs--p--Mobile {
+    font-size: 4.5vw;
+    margin-top: 3vw;
+  }
+  .ach__about--subHeadings {
+    margin-top: 2vw;
+  }
+  .ach__about--aboutAch--p,
+  .ach__about--aboutAch--pLeft,
+  .ach__about--aboutAch--li,
+  .ach__about--whyAch--p {
+    position: relative;
+    font-size: 4.1vw;
+    line-height: 30px;
+    margin-top: 2vw;
+  }
+  .ach__about--aboutAch--pLeft {
+    width: 84vw;
+    font-weight: 400;
+  }
+  .ach__about--study1 {
+    position: relative;
+    display: block;
+    left: 0vw;
+    width: 84vw;
+    top: 0vw;
+    margin: 4vw 0;
+  }
+  .ach__about--study2,
+  .ach__about--study3,
+  .ach__about--study4,
+  .ach__about--study5,
+  .ach__about--study6 {
+    display: block;
+    width: 84vw;
+    height: 45vw;
+    margin: 5vw 0;
+  }
+  .ach__about--study6 {
+    width: 84vw;
+    height: 42.5vw;
+    margin-top: 4.5vw;
+  }
+  .ach__about--study3,
+  .ach__about--study5 {
+    margin: 3vw auto;
+    width: 84vw;
+    height: 47vw;
+  }
+  .ach__about--whyAch--flexDiv,
+  .ach__about--coreValuesflexDiv,
+  .ach__about--coreValuesflexDiv2 {
+    position: relative;
+    display: block;
+  }
+  .ach__about--coreValuesflexDiv,
+  .ach__about--coreValuesflexDiv2 {
+    width: 84vw;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2.5vw;
+  }
+  .ach__about--coreValuesflexDiv2 {
+    margin-top: -2.4vw;
+  }
+  .ach__about--whyAch--flexDiv--writing {
+    width: 84vw;
+  }
+  .ach__about--aboutAch--li {
+    position: relative;
+    left: 5vw;
+    width: 79vw;
+  }
+  .ach__about--whyAch--li,
+  .ach__about--studyMat--li {
+    display: block;
+    font-size: 4.1vw;
+    margin-top: 3vw;
+    width: 84vw;
+  }
+  .ach__about--studyMat--ul {
+    margin: 1.3vw 0;
+  }
+  .ach__about--coreValues--meanings {
+    display: block;
+    font-size: 5vw;
+    margin: 2vw 0;
+  }
+  .ach__about--heading--boardOfDirectors {
+    font-size: 6.5vw;
+  }
+  .ach__about__ourTeam--Heading {
+    font-size: 6vw;
+    margin: 7vw 0 4.5vw 0;
+  }
+  .ach__about--president {
+    position: relative;
+    top: 3.5vw;
+    width: 59vw;
+    margin-bottom: 7vw;
+  }
+  .ach__about--presidentName,
+  .ach__about--presidentDesignation,
+  .ach__about--presidentContact {
+    position: relative;
+    top: -0.5vw;
+    font-size: 4.5vw;
+    color: #1d85ff;
+  }
+  .ach__about--presidentDesignation {
+    font-size: 4.15vw;
+    margin: 1.5vw 0;
+    color: #000;
+  }
+  .ach__about--presidentContact {
+    color: #f92b32;
+    font-weight: 600;
+    font-size: 4.03vw;
+  }
+  /* Academic Team */
+  .ach__about__ourTeam--academicCoordinators {
+    position: relative;
+    width: 88vw;
+  }
+  .ach__about__ourTeam--academicCoordinatorsHeading {
+    position: relative;
+    font-size: 5.3vw;
+  }
+  .ach__about__ourTeam--TeamCards {
+    position: relative;
+    display: block;
+    width: 88vw;
+    margin-bottom: 2vw;
+  }
+  .ach__about__ourTeam--academicCoordinatorsCard {
+    position: relative;
+    margin-top: 2.5vw;
+    height: 40vw;
+  }
+  .ach__about__ourTeam--academicCoordinatorsCardImg {
+    position: relative;
+    width: 24.5vw;
+    height: 24.5vw;
+    object-fit: cover;
+    left: 2.1vw;
+  }
+  .ach__about__ourTeam--academicCoordinatorsCardName,
+  .ach__about__ourTeam--academicCoordinatorsCardDesignation,
+  .ach__about__ourTeam--academicCoordinatorsCardContact,
+  .ach__about__ourTeam--academicCoordinatorsCardContact--edit,
+  .ach__about__ourTeam--academicCoordinatorsCardDesignation--Rashbehari,
+  .ach__about__ourTeam--academicCoordinatorsCardDesignation--Simantini {
+    position: absolute;
+    margin-left: 3.5vw;
+    top: 0.98vw;
+    font-size: 4.9vw;
+    color: #004aad;
+  }
+  .ach__about__ourTeam--academicCoordinatorsCardDesignation,
+  .ach__about__ourTeam--academicCoordinatorsCardContact,
+  .ach__about__ourTeam--academicCoordinatorsCardContact--edit,
+  .ach__about__ourTeam--academicCoordinatorsCardDesignation--Rashbehari,
+  .ach__about__ourTeam--academicCoordinatorsCardDesignation--Simantini {
+    top: 8vw;
+    font-size: 4vw;
+    color: #000;
+    width: 56vw;
+    line-height: 5.4vw;
+  }
+  .ach__about__ourTeam--academicCoordinatorsCardContact,
+  .ach__about__ourTeam--academicCoordinatorsCardContact--edit {
+    font-size: 4.3vw;
+    top: 26.5vw;
+    left: -1vw;
+    width: 83vw;
+    color: #f92b32;
+  }
+  .ach__about__ourTeam--academicCoordinatorsCardContact--edit {
+    top: 26.5vw;
+  }
+  .ach__about__ourTeam--academicCoordinatorsCardDesignation--Simantini {
+    width: 57.8vw;
+  }
+  .ach__about__ourTeam--academicCoordinatorsCardDesignation--Rashbehari {
+    top: 14vw;
+  }
+
+  /* Contact Us */
+  .ach__about__contactUs {
+    width: 84vw;
+    height: 59vw;
+    display: block;
+    margin: 2.5vw 0 3vw;
+  }
+  .ach__about__contactUs--heading {
+    font-size: 6.8vw;
+  }
+  .ach__about__contactUs--corporate,
+  .ach__about__contactUs--p--Mobile {
+    font-size: 4.8vw;
+    color: #004aad;
+  }
+  .ach__about__contactUs--p--Mobile {
+    font-size: 4.6vw;
+  }
+  .ach__about__contactUs--p {
+    font-size: 4.1vw;
+    font-weight: 600;
+    margin: 1.5vw 0;
+    width: 83.5vw;
+    line-height: 5.4vw;
+  }
+  .ach__about--map {
+    position: relative;
+    width: 84vw;
+    height: 50vw;
+    margin-bottom: 5.5vw;
+  }
+
+  /* Terms */
+  .ach__terms--redPara {
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 2.5vw 0 3vw;
+    font-weight: 600;
+    text-align: center;
+    color: #f92b32;
+    width: 77vw;
+  }
+  .policy__banner {
+    position: relative;
+    width: 150vw;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .policy__banner--privacy {
+    width: 130vw;
+  }
+}

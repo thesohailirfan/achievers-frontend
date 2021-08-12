@@ -1,0 +1,123 @@
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+.categories form {
+  position: relative;
+  left: 0vw;
+  width: 28vw;
+  margin-bottom: 3vw;
+}
+.categories label {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: 1.7vw;
+  margin: 3vw 0;
+}
+.categories input,
+button {
+  height: 40px;
+  border: none;
+  outline: none;
+}
+.categories input {
+  width: 15vw;
+  border-bottom: 1px solid #555;
+}
+.categories button {
+  color: white;
+  margin: 0 0 0 1vw;
+  width: 125px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  background: #fc2b32;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+}
+.categories .row {
+  font-size: 1.1vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.65vw 1vw;
+  margin: 1.3vw 0;
+  border: 1px solid #ccc;
+}
+.categories .row p {
+  margin-right: 5vw;
+}
+.categories .row:nth-child(1) {
+  margin-top: 3vw;
+}
+.categories .row:last-of-type {
+  margin-bottom: 7vw;
+}
+
+/* <=====================Responsive======================> */
+/* <=====================================================> */
+@media (max-width: 768px) {
+  .categories {
+    display: block;
+  }
+  .categories form {
+    left: 5vw;
+    width: 90vw;
+    height: 50vw;
+    margin-bottom: 5vw;
+  }
+  .categories label {
+    display: block;
+    font-size: 5.7vw;
+    margin: 5vw 0;
+  }
+  .categories input {
+    font-size: 5vw;
+    width: 90vw;
+    border-bottom: 2px solid #555;
+  }
+  .categories button {
+    color: white;
+    margin: 2vw 1vw;
+    width: 125px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    background: #fc2b32;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    position: relative;
+  }
+  .category--newCatInputButton {
+    position: relative;
+    display: block;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 8vw;
+  }
+  .categories .row {
+    font-size: 5vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.65vw 3vw;
+    margin: 4.3vw 3vw;
+    border: 3px solid rgb(54, 54, 54);
+  }
+  .categories .row p {
+    margin-right: 5vw;
+    width: 100vw;
+  }
+  .categories .row:nth-child(1) {
+    margin-top: 3vw;
+  }
+  .categories .row:last-of-type {
+    margin-bottom: 7vw;
+  }
+}

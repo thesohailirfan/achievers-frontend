@@ -1,0 +1,271 @@
+.ach__footer--ul {
+  width: 10.5vw;
+}
+.ach__footer {
+  background-color: #010e26;
+  position: relative;
+  width: 100vw;
+  height: 36vw;
+}
+.ach__footer--aboutPart {
+  position: relative;
+  left: 5.3vw;
+  top: 3.5vw;
+  width: 10vw;
+}
+.ach__footer--policyPart {
+  position: absolute;
+  top: 3.5vw;
+  left: 25.2vw;
+}
+.ach__footer--aboutPart--li,
+.ach__footer--policyPart--li {
+  margin: 0.7vw 0;
+  width: 10.5vw;
+}
+.ach__footer--aboutPart--heading,
+.ach__footer--policyPart--heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.41vw;
+  color: #fff;
+  width: 5.5vw;
+}
+.ach__footer--aboutPart--links,
+.ach__footer--policyPart--links {
+  font-family: "Segoe UI", sans-serif;
+  font-weight: 700;
+  font-size: 1.2vw;
+  color: #cdcdcd;
+  position: relative;
+  text-align: left;
+}
+.ach__footer--verticalLine {
+  position: absolute;
+  left: 39vw;
+  top: 4vw;
+  height: 13.5vw;
+  border: none;
+  border-left: 3px solid #565656;
+}
+.ach__footer--horizontalLine {
+  position: relative;
+  top: 6.3vw;
+  width: 90vw;
+  border: none;
+  border-bottom: 3.3px solid #565656;
+  display: block;
+  margin: 0 auto;
+}
+.ach__footer--addressPart {
+  position: absolute;
+  top: 6.2vw;
+  left: 61.9vw;
+  height: 12vw;
+}
+.ach__footer--map {
+  position: absolute;
+  width: 12.5vw;
+  height: 12.5vw;
+  border: 0;
+  top: 4.7vw;
+  left: 44.4vw;
+  border-radius: 50%;
+}
+.ach__footer--addressPart--heading,
+.ach__footer--addressPart--campus,
+.ach__footer--addressPart--campusAddress {
+  width: 6.5vw;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.35vw;
+}
+.ach__footer--addressPart--campus,
+.ach__footer--addressPart--campusAddress {
+  width: 32vw;
+  font-size: 1.11vw;
+  margin: 1.8vw 0;
+}
+.ach__footer--logo {
+  position: relative;
+  width: 31vw;
+  top: 7.8vw;
+  left: 5.3vw;
+}
+.ach__footer--social--heading {
+  width: 5.5vw;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 1.4vw;
+  position: relative;
+  left: 87.7vw;
+  top: 1.3vw;
+  margin-bottom: 2vw;
+}
+.ach__footer--social--icons {
+  position: relative;
+  left: 79vw;
+  top: 1vw;
+}
+.ach__footer--social--icons-yt,
+.ach__footer--social--icons-Play,
+.ach__footer--social--icons-fb,
+.ach__footer--social--icons-telegram {
+  width: 1.9vw;
+  margin: 0 0.8vw;
+}
+.ach__footer--social--icons-telegram {
+  width: 2vw;
+}
+.ach__footer--contact {
+  display: none;
+}
+
+/* <----------------------------Responsive---------------------------------> */
+@media (max-width: 768px) {
+  .ach__footer {
+    height: 196vw;
+  }
+  .ach__footer--ul {
+    width: 31.5vw;
+  }
+  .ach__footer--aboutPart {
+    position: relative;
+    left: 11.8vw;
+    top: 53.2vw;
+    width: 10vw;
+  }
+  .ach__footer--policyPart {
+    position: absolute;
+    left: 58.8vw;
+    top: 53.2vw;
+    width: 30vw;
+  }
+  .ach__footer--aboutPart--li,
+  .ach__footer--policyPart--li {
+    margin: 1.4vw 0;
+    width: 30.5vw;
+  }
+  .ach__footer--aboutPart--heading,
+  .ach__footer--policyPart--heading {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 4.8vw;
+    color: #fff;
+    width: 25.5vw;
+  }
+  .ach__footer--aboutPart--links,
+  .ach__footer--policyPart--links {
+    font-family: "Segoe UI", sans-serif;
+    font-weight: 700;
+    font-size: 3.95vw;
+    color: #cdcdcd;
+    position: relative;
+    text-align: left;
+    width: 30vw;
+  }
+  .ach__footer--verticalLine {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 103.5vw;
+    width: 89vw;
+    height: 0;
+    border: none;
+    border-bottom: 3px solid #565656;
+  }
+  .ach__footer--horizontalLine {
+    position: relative;
+    top: 0;
+    width: 89vw;
+    border: none;
+    border-bottom: 2.8px solid #565656;
+    display: block;
+    margin: 0 auto;
+  }
+  .ach__footer--addressPart {
+    position: absolute;
+    top: 9.7vw;
+    left: 41.9vw;
+    height: 32.5vw;
+  }
+  .ach__footer--map {
+    position: absolute;
+    width: 27.5vw;
+    height: 27.5vw;
+    border: 0;
+    top: 10vw;
+    left: 7.4vw;
+    border-radius: 50%;
+  }
+  .ach__footer--addressPart--heading,
+  .ach__footer--addressPart--campus,
+  .ach__footer--addressPart--campusAddress {
+    width: 17.5vw;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 3.85vw;
+  }
+  .ach__footer--addressPart--campus,
+  .ach__footer--addressPart--campusAddress {
+    width: 52vw;
+    font-size: 3vw;
+    margin: 1.8vw 0;
+    line-height: 4.5vw;
+  }
+  .ach__footer--logo {
+    position: relative;
+    width: 65vw;
+    top: 92.8vw;
+    left: 5.3vw;
+  }
+  /* Social */
+  .ach__footer--social--heading {
+    width: 15.5vw;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 4.9vw;
+    position: relative;
+    left: 11.7vw;
+    top: 39.3vw;
+    margin-bottom: 2vw;
+  }
+  .ach__footer--social--icons {
+    position: relative;
+    left: 8.7vw;
+    top: 41vw;
+  }
+  .ach__footer--social--icons-yt,
+  .ach__footer--social--icons-Play,
+  .ach__footer--social--icons-fb,
+  .ach__footer--social--icons-telegram {
+    width: 7vw;
+    margin: 0 3.2vw;
+  }
+  .ach__footer--social--icons-Play {
+    width: 6.7vw;
+    margin-bottom: 0.5vw;
+  }
+  .ach__footer--social--icons-yt {
+    width: 8.5vw;
+  }
+  .ach__footer--social--icons-telegram {
+    width: 7.7vw;
+  }
+  .ach__footer--contact {
+    display: block;
+  }
+}
+
+@media (max-width: 360px) {
+  .ach__footer--verticalLine {
+    top: 109vw;
+  }
+  .ach__footer--horizontalLine {
+    top: -4vw;
+  }
+}
