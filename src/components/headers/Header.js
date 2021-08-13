@@ -59,7 +59,7 @@ function Header() {
     }
 
     // For Hamburger
-    let x = ["hamburger"];
+    // let x = ["hamburger"];
 
     return (
         <>

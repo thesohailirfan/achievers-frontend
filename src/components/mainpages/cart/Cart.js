@@ -82,7 +82,7 @@ function Cart() {
     }
     
     const __DEV__ = document.domain === 'localhost'
-    
+        // eslint-disable-next-line
         const [name, setName] = useState('')
 
         async function displayRazorpay() {            
