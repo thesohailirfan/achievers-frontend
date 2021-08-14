@@ -60,6 +60,18 @@
   font-weight: 700;
   font-size: 1.21vw;
 }
+
+.nav__createCareer {
+  color: #fff;
+  position: absolute;
+  z-index: 1;
+  top: 4.8vw;
+  left: 50vw;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 1.21vw;
+}
+
 .navAdminSmallNav--ul {
   display: none;
 }

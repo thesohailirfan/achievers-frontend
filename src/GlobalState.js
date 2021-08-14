@@ -3,6 +3,7 @@ import ProductsAPI from './api/ProductsAPI';
 import HomeProductsAPI from './api/HomeProductsAPI';
 import UserAPI from './api/UserAPI';
 import CategoriesAPI from './api/CategoriesAPI';
+import CareersAPI from './api/CareersAPI';
 
 export const GlobalState = createContext()
 
@@ -15,7 +16,7 @@ export const DataProvider = ({children}) =>{
         if(firstLogin){
             const refreshToken = async () =>{
                 // Not working in prod, so had to use locastorage accessToken
-                // const res = await axios.get('https://achievers-backend.herokuapp.com/user/refresh_token')
+                // const res = await axios.get('https://achieverscircle.herokuapp.com/user/refresh_token')
 
                 const accesstoken= localStorage.getItem('accesstoken')
                 setToken(accesstoken)
@@ -35,7 +36,8 @@ export const DataProvider = ({children}) =>{
         productsAPI: ProductsAPI(),
         HomeProductsAPI: HomeProductsAPI(),
         userAPI: UserAPI(token),
-        categoriesAPI: CategoriesAPI()
+        categoriesAPI: CategoriesAPI(),
+        careersAPI: CareersAPI(),
     }
 
     return (

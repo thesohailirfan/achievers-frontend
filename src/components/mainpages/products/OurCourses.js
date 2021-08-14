@@ -48,10 +48,10 @@ function OurCourses() {
     const deleteProduct = async(id, public_id) => {
         try {
             setLoading(true)
-            const destroyImg = axios.post('https://achievers-backend.herokuapp.com/api/destroy', {public_id},{
+            const destroyImg = axios.post('https://achieverscircle.herokuapp.com/api/destroy', {public_id},{
                 headers: {Authorization: token}
             })
-            const deleteProduct = axios.delete(`https://achievers-backend.herokuapp.com/api/products/${id}`, {
+            const deleteProduct = axios.delete(`https://achieverscircle.herokuapp.com/api/products/${id}`, {
                 headers: {Authorization: token}
             })
 
@@ -123,7 +123,7 @@ function OurCourses() {
                 <p className="courses__joinCommunity--sixThousandStudents">6,000+ students</p>
                 <hr className="courses__joinCommunity--verticalLine"></hr>
                 <p className="courses__joinCommunity--joinCommunity">Join our community</p>
-                <a className="courses__joinCommunity--contact" href="/contact">Contact Us</a>
+                <a className="courses__joinCommunity--contact" href="about#ach__about__contactUs">Contact Us</a>
                 <a className="courses__joinCommunity--downloadApp" href="https://play.google.com/store/apps/details?id=co.jarvis.achi" target="_blank" rel="noopener noreferrer">Download our App</a>
             </div>
 

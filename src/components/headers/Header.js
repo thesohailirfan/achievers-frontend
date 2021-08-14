@@ -14,7 +14,7 @@ function Header() {
     const [cart] = state.userAPI.cart
     // console.log(state.userAPI.isLogged);
     const logoutUser = async () =>{
-        await axios.get('https://achievers-backend.herokuapp.com/user/logout')
+        await axios.get('https://achieverscircle.herokuapp.com/user/logout')
         
         localStorage.removeItem('firstLogin')
         localStorage.removeItem('accesstoken')
@@ -26,6 +26,7 @@ function Header() {
     const adminRouter = () =>{
         return(
             <>
+                <li><Link className="nav__createCareer" to="/create_career">Create Career</Link></li>
                 <li><Link className="nav__createProduct" to="/create_product">Create Product</Link></li>
                 <li><Link className="nav__category" to="/category">Categories</Link></li>
             </>
@@ -35,6 +36,7 @@ function Header() {
     const adminMobileSmallNavRouter = () =>{
         return(
             <ul className="navAdminSmallNav--ul">
+                <li><Link className="navAdminSmallNav__createProduct" to="/create_career">Create Career</Link></li>
                 <li><Link className="navAdminSmallNav__createProduct" to="/create_product">Create Product</Link></li>
                 <li><Link className="navAdminSmallNav__category" to="/category">Categories</Link></li>
             </ul>

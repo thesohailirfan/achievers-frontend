@@ -1,10 +1,28 @@
 import React from "react";
+import axios from 'axios';
 
 function JobCards(props) {
+      
+      
 
-    const rolesAndResponsibilities = props.rolesAndResponsibilities.map((roles) => 
-        <li className="careers__jobCards-bulletPoints">{roles}</li>  
+      const deleteProduct = async(id) => {
+        try {  
+            const deleteProduct = axios.delete(`https://achieverscircle.herokuapp.com/api/careers/${id}`, {
+                headers: {Authorization: props.token}
+            })
+
+            await deleteProduct
+            window.location.href = "/careers";
+        } catch (err) {
+            alert(err.response.data.msg)
+        }
+    }
+
+    const rolesAndResponsibilities = props.rolesAndResponsibilities.split(";").map((roles, index) => 
+        <li className="careers__jobCards-bulletPoints" key={index}>{roles}</li>  
         );
+
+    const editLink = "/edit_career/" + props.link
 
     return (
       <div className="careers__jobCards">
@@ -17,7 +35,14 @@ function JobCards(props) {
               <p className="careers__jobCards--rolesAndResponsibilitiesHeading">Roles And Responsibilities</p>
               {rolesAndResponsibilities}
             </div>
-            <a href={props.link} className="careers__jobCards--applyBtn">Apply Now</a>
+            <a href="http://achieverscircle.ml/career" className="careers__jobCards--applyBtn">Apply Now</a>
+            {
+              props.isAdmin &&
+              <>
+              <a href={editLink} className="careers__jobCards--applyBtn">Edit</a>
+              <button className="careers__jobCards--applyBtn" style={{height: 60}} onClick={() => deleteProduct(props.link)}>Delete</button>
+              </>
+            }
           </div>
 
           <div className="careers__jobCards--RightSide">
@@ -25,7 +50,11 @@ function JobCards(props) {
             <p className="careers__jobCards--rolesAndResponsibilitiesHeading">Roles And Responsibilities</p>
             {rolesAndResponsibilities}
           </div>
-          <a href={props.link} className="careers__jobCards--applyBtn--mobile">Apply Now</a>
+          <a href="http://achieverscircle.ml/career" className="careers__jobCards--applyBtn--mobile">Apply Now</a>
+          {
+            props.isAdmin &&
+            <a href={editLink} className="careers__jobCards--applyBtn--mobile">Edit</a>
+          }
          
       </div>
     );

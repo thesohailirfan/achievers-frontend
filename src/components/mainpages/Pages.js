@@ -12,6 +12,7 @@ import PaySuccess from './cart/PaySuccess';
 import NotFound from './utils/not_found/NotFound';
 import Categories from './categories/Categories';
 import CreateProduct from './createProduct/CreateProduct';
+import CreateCareer from './createCareer/CreateCareer';
 import Careers from './career/Careers';
 import About from "./about/About";
 import ReturnPolicy from "./policy/ReturnPolicy";
@@ -38,6 +39,9 @@ function Pages() {
             <Route path="/category" exact component={isAdmin ? Categories : NotFound} />
             <Route path="/create_product" exact component={isAdmin ? CreateProduct : NotFound} />
             <Route path="/edit_product/:id" exact component={isAdmin ? CreateProduct : NotFound} />
+
+            <Route path="/create_career" exact component={isAdmin ? CreateCareer : NotFound} />
+            <Route path="/edit_career/:id" exact component={isAdmin ? CreateCareer : NotFound} />
 
             <Route path="/history" exact component={isLogged ? OrderHistory : NotFound} />
             <Route path="/history/:id" exact component={isLogged ? OrderDetails : NotFound} />

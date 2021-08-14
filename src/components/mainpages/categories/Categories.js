@@ -17,12 +17,12 @@ function Categories() {
         e.preventDefault()
         try {
             if(onEdit){
-                const res = await axios.put(`https://achievers-backend.herokuapp.com/api/category/${id}`, {name: category}, {
+                const res = await axios.put(`https://achieverscircle.herokuapp.com/api/category/${id}`, {name: category}, {
                     headers: {Authorization: token}
                 })
                 alert(res.data.msg)
             }else{
-                const res = await axios.post('https://achievers-backend.herokuapp.com/api/category', {name: category}, {
+                const res = await axios.post('https://achieverscircle.herokuapp.com/api/category', {name: category}, {
                     headers: {Authorization: token}
                 })
                 alert(res.data.msg)
@@ -44,7 +44,7 @@ function Categories() {
 
     const deleteCategory = async id =>{
         try {
-            const res = await axios.delete(`https://achievers-backend.herokuapp.com/api/category/${id}`, {
+            const res = await axios.delete(`https://achieverscircle.herokuapp.com/api/category/${id}`, {
                 headers: {Authorization: token}
             })
             alert(res.data.msg)

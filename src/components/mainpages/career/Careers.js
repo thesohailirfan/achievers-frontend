@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useContext} from "react";
+import {GlobalState} from '../../../GlobalState';
 import Header from "../../headers/Header";
 import Footer from "../../footers/footer";
 import JobCards from "./JobCards";
-import jobs from "./jobs";
+
 
 // Assets
 import TopBanner from "../../../assets/Pics/Careers/Top Banner.png";
@@ -24,16 +25,22 @@ import ExecutiveOfficer2 from "../../../assets/Pics/Careers/Administrative Team/
 
 
 function Careers() {
+    const state = useContext(GlobalState)
+    const careers = state.careersAPI.products
+    const [isAdmin] = state.userAPI.isAdmin
+    const [token] = state.token
 
     // JobCards
-    function createJobs(jobs) {
+      function createCareer(jobs) {
         return (
           <JobCards
-            key={jobs.id}
-            jobTitle={jobs.jobTitle}
-            jobRequirements={jobs.jobRequirements}
-            rolesAndResponsibilities={jobs.rolesAndResponsibilities}
-            link={jobs.link}
+            key={jobs._id}
+            jobTitle={jobs.title}
+            jobRequirements={jobs.qualification}
+            rolesAndResponsibilities={jobs.roles}
+            link={jobs._id}
+            isAdmin={isAdmin}
+            token = {token}
           />
         );
       }
@@ -168,7 +175,7 @@ function Careers() {
                     {/* Job Opportunities */}
                     <div id="viewOpenPositions" className="careers__jobs">
                         <p className="careers__jobs--heading">We are looking for interested individuals!</p>
-                        <div className="careers__jobCards">{jobs.map(createJobs)}</div>
+                        <div className="careers__jobCards">{careers[0].map(createCareer)}</div>
                     </div>
                 </div>
             </div>

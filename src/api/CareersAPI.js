@@ -2,7 +2,7 @@ import {useState, useEffect} from 'react';
 import axios from 'axios';
 
 
-function HomeProductsAPI() {
+function CareersAPI() {
     const [products, setProducts] = useState([])
     const [callback, setCallback] = useState(false)
     const [category, setCategory] = useState('')
@@ -13,7 +13,7 @@ function HomeProductsAPI() {
 
     useEffect(() =>{
         const getProducts = async () => {
-            const res = await axios.get(`https://achieverscircle.herokuapp.com/api/products?limit=${page*20}&${category}&${sort}&title[regex]=${search}`)
+            const res = await axios.get(`https://achieverscircle.herokuapp.com/api/careers?limit=${page*9}&${category}&${sort}&title[regex]=${search}`)
             setProducts(res.data.products)
             setResult(res.data.result)
         }
@@ -31,4 +31,4 @@ function HomeProductsAPI() {
     }
 }
 
-export default HomeProductsAPI;
+export default CareersAPI;

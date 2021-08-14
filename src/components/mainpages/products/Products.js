@@ -45,10 +45,10 @@ function Products() {
     const deleteProduct = async(id, public_id) => {
         try {
             setLoading(true)
-            const destroyImg = axios.post('https://achievers-backend.herokuapp.com/api/destroy', {public_id},{
+            const destroyImg = axios.post('https://achieverscircle.herokuapp.com/api/destroy', {public_id},{
                 headers: {Authorization: token}
             })
-            const deleteProduct = axios.delete(`https://achievers-backend.herokuapp.com/api/products/${id}`, {
+            const deleteProduct = axios.delete(`https://achieverscircle.herokuapp.com/api/products/${id}`, {
                 headers: {Authorization: token}
             })
 
@@ -82,7 +82,7 @@ function Products() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        await axios.post('https://achievers-backend.herokuapp.com/api/', {firstName: firstName, lastName: lastName, email: email, phone: phone})
+        await axios.post('https://achieverscircle.herokuapp.com/api/', {firstName: firstName, lastName: lastName, email: email, phone: phone})
         setFirstName("");
         setLastName("");
         setEmail("");
@@ -360,7 +360,7 @@ function Products() {
             
             <button className="ach__generalEnquiry--submit" type="submit" value="Submit">Submit</button>
             </form>
-            <a className="ach__generalEnquiry--faq" href="/">FAQs</a>
+            <a className="ach__generalEnquiry--faq" href="achieverscircle.ml/general-info">FAQs</a>
         </span>
         </div>
 
