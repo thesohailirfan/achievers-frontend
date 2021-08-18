@@ -360,7 +360,7 @@ function Products() {
             
             <button className="ach__generalEnquiry--submit" type="submit" value="Submit">Submit</button>
             </form>
-            <a className="ach__generalEnquiry--faq" href="achieverscircle.ml/general-info">FAQs</a>
+            <a className="ach__generalEnquiry--faq" href="https://achieverscircle.ml/general-info">FAQs</a>
         </span>
         </div>
 
