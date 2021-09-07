@@ -158,7 +158,7 @@ function CreateProduct() {
 
       <form onSubmit={handleSubmit}>
         <div className="row">
-          <label htmlFor="product_id">Position ID</label>
+          <label htmlFor="product_id">Product ID</label>
           <input
             type="text"
             name="product_id"

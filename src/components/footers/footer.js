@@ -94,8 +94,7 @@ function Footer() {
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            marginTop: "100px",
-            marginBottom: "30px"
+            marginTop: "50px",
         }}>Made With <span role="img" aria-label="heart">❤️</span> By Starway Web Digital</div>
         </div>
     )
