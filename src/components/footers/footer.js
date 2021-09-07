@@ -12,8 +12,8 @@ function Footer() {
                 <li className="ach__footer--aboutPart--li"><a className="ach__footer--aboutPart--links" href="/about#ach__about__contactUs">Contact Us</a></li>
                 <li className="ach__footer--aboutPart--li"><a className="ach__footer--aboutPart--links" href="/about">About Us</a></li>
                 <li className="ach__footer--aboutPart--li"><a className="ach__footer--aboutPart--links" href="/careers">Careers</a></li>
-                <li className="ach__footer--aboutPart--li"><a className="ach__footer--aboutPart--links" href="/stories">Achievers Stories</a></li>
-                <li className="ach__footer--aboutPart--li"><a className="ach__footer--aboutPart--links" href="/press">Press</a></li>
+                <br />
+                <br />
                 </ul>
             </span>
 
@@ -87,6 +87,16 @@ function Footer() {
         <span>
             <p className="ach__success--email ach__footer--contact">Email: drsrcphd@gmail.com</p>
         </span>
+
+        <div style={{
+            color: "#fff",
+            width: "100vw",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            marginTop: "100px",
+            marginBottom: "30px"
+        }}>Made With <span role="img" aria-label="heart">❤️</span> By Starway Web Digital</div>
         </div>
     )
 }

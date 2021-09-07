@@ -65,8 +65,10 @@ function Header() {
 
     return (
         <>
-        <div className="navbar">            
+        <div className="navbar">         
+            <a href="/">
             <img className="logo" src={Logo} alt="Logo"/>
+            </a>   
             
             <span className="nav__contact">
                 <svg className="nav__phoneIcon" width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -117,7 +119,7 @@ function Header() {
             <li className="nav__smallNav--li"><a className="nav__smallNav" href="/our_courses">Our Courses</a></li>
             <li className="nav__smallNav--li"><a className="nav__smallNav" href="https://achieverscircle.ml/results">Result</a></li>
             <li className="nav__smallNav--li"><a className="nav__smallNav" href="https://achieverscircle.ml/testimonial">Testimonials</a></li>
-            <li className="nav__smallNav--li"><a className="nav__smallNav" href="/">General Info.</a></li>
+            <li className="nav__smallNav--li"><a className="nav__smallNav" href="https://achieverscircle.ml/general-info">General Info.</a></li>
             <li className="nav__smallNav--li"><a className="nav__smallNav" href="/careers">Careers</a></li>
             <li className="nav__smallNav--li"><a className="nav__smallNav" href="/about#ach__about__contactUs">Contact Us</a></li>
             <li className="nav__smallNav--li"><a className="nav__smallNav" href="/">LIVE Enquiry Desk</a></li>
@@ -141,7 +143,7 @@ function Header() {
                                 <li className="hamlinks"><a className="hamburger__navlinks__pods" href="/our_courses">Our Courses</a></li>
                                 <li className="hamlinks"><a className="hamburger__navlinks__news" href="https://achieverscircle.ml/results">Result</a></li>
                                 <li className="hamlinks"><a className="hamburger__navlinks__contact" href="https://achieverscircle.ml/testimonial">Testimonials</a></li>
-                                <li className="hamlinks"><a className="hamburger__navlinks__contact" href="/">General Info</a></li>
+                                <li className="hamlinks"><a className="hamburger__navlinks__contact" href="https://achieverscircle.ml/general-info">General Info</a></li>
                                 <li className="hamlinks"><a className="hamburger__navlinks__contact" href="/careers">Careers</a></li>
                                 <li className="hamlinks"><a className="hamburger__navlinks__contact" href="/about#ach__about__contactUs">Contact Us</a></li>
                                 <li className="hamlinks"><a className="hamburger__navlinks__contact" href="/">LIVE Enquiry Desk</a></li>
