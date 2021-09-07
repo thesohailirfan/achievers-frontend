@@ -122,7 +122,7 @@ function Header() {
             <li className="nav__smallNav--li"><a className="nav__smallNav" href="https://achieverscircle.ml/general-info">General Info.</a></li>
             <li className="nav__smallNav--li"><a className="nav__smallNav" href="/careers">Careers</a></li>
             <li className="nav__smallNav--li"><a className="nav__smallNav" href="/about#ach__about__contactUs">Contact Us</a></li>
-            <li className="nav__smallNav--li"><a className="nav__smallNav" href="/">LIVE Enquiry Desk</a></li>
+            <li className="nav__smallNav--li"><a className="nav__smallNav" href="https://t.me/joinchat/KhMenI4hH-4wNjJl">LIVE Enquiry Desk</a></li>
         </ul>
         <ul>
             {isAdmin && adminMobileSmallNavRouter()}
@@ -146,7 +146,7 @@ function Header() {
                                 <li className="hamlinks"><a className="hamburger__navlinks__contact" href="https://achieverscircle.ml/general-info">General Info</a></li>
                                 <li className="hamlinks"><a className="hamburger__navlinks__contact" href="/careers">Careers</a></li>
                                 <li className="hamlinks"><a className="hamburger__navlinks__contact" href="/about#ach__about__contactUs">Contact Us</a></li>
-                                <li className="hamlinks"><a className="hamburger__navlinks__contact" href="/">LIVE Enquiry Desk</a></li>
+                                <li className="hamlinks"><a className="hamburger__navlinks__contact" href="https://t.me/joinchat/KhMenI4hH-4wNjJl">LIVE Enquiry Desk</a></li>
                             </ul>
                         </div>
                     </div>

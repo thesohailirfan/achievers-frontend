@@ -123,6 +123,16 @@
   display: none;
 }
 
+.footer {
+  color: "#fff";
+  width: "100vw";
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  margin-top: "50px";
+  background-color: "#0e0e0e";
+}
+
 /* <----------------------------Responsive---------------------------------> */
 @media (max-width: 768px) {
   .ach__footer {

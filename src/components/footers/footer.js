@@ -5,6 +5,7 @@ import Logo from "../../assets/Pics/Home/1-Navbar/Logo.png";
 function Footer() {
 
     return (
+        <>
         <div className="ach__footer">
             <span className="ach__footer--aboutPart">
                 <ul>
@@ -87,16 +88,17 @@ function Footer() {
         <span>
             <p className="ach__success--email ach__footer--contact">Email: drsrcphd@gmail.com</p>
         </span>
-
+        </div>
         <div style={{
             color: "#fff",
             width: "100vw",
             display: "flex",
             justifyContent: "center",
             alignItems: "center",
-            marginTop: "50px",
+            padding: "25px",
+            backgroundColor: "#010e26",
         }}>Made With <span role="img" aria-label="heart">❤️</span> By Starway Web Digital</div>
-        </div>
+        </>
     )
 }
 

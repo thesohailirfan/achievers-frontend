@@ -81,7 +81,7 @@ function CreateCareer() {
         <h1>Create Career</h1>
 
         <div className="row">
-          <label htmlFor="product_id">Product ID</label>
+          <label htmlFor="product_id">Position ID</label>
           <input
             type="text"
             name="career_id"
