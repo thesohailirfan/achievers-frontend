@@ -37,11 +37,14 @@ function Footer() {
                 <p className="ach__footer--addressPart--campusAddress">Rashbehari Branch Office: 162, S.P. Mukherjee Road, Rashbehari Avenue (Ground Floor), Kolkata - 700026</p>
             </span>
 
+            <br />
+
             <hr className="ach__footer--horizontalLine"></hr>
 
             <img className="ach__footer--logo" src={Logo} alt="Logo"/>
 
-            
+            <br />
+            <br />
             <p className="ach__footer--social--heading">Social</p>
 
             <span className="ach__footer--social--icons">
