@@ -13,7 +13,7 @@ function HomeProductsAPI() {
 
     useEffect(() =>{
         const getProducts = async () => {
-            const res = await axios.get(`https://achieverscircle.herokuapp.com/api/products?limit=${page*20}&${category}&${sort}&title[regex]=${search}`)
+            const res = await axios.get(`http://localhost:8080/api/products?limit=${page*20}&${category}&${sort}&title[regex]=${search}`)
             setProducts(res.data.products)
             setResult(res.data.result)
         }

@@ -16,12 +16,12 @@ function OrderHistory() {
         if(token){
             const getHistory = async() =>{
                 if(isAdmin){
-                    const res = await axios.get('https://achieverscircle.herokuapp.com/api/payment', {
+                    const res = await axios.get('http://localhost:8080/api/payment', {
                         headers: {Authorization: token}
                     })
                     setHistory(res.data)
                 }else{
-                    const res = await axios.get('https://achieverscircle.herokuapp.com/user/history', {
+                    const res = await axios.get('http://localhost:8080/user/history', {
                         headers: {Authorization: token}
                     })
                     

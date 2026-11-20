@@ -7,7 +7,7 @@ function JobCards(props) {
 
       const deleteProduct = async(id) => {
         try {  
-            const deleteProduct = axios.delete(`https://achieverscircle.herokuapp.com/api/careers/${id}`, {
+            const deleteProduct = axios.delete(`http://localhost:8080/api/careers/${id}`, {
                 headers: {Authorization: props.token}
             })
 

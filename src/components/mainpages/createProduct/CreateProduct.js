@@ -71,7 +71,7 @@ function CreateProduct() {
       console.log(formData.get("file"));
 
       setLoading(true);
-      const res = await axios.post("https://achieverscircle.herokuapp.com/api/upload", formData, {
+      const res = await axios.post("http://localhost:8080/api/upload", formData, {
         headers: { "content-type": "multipart/form-data", Authorization: token },
       });
       setLoading(false);
@@ -87,7 +87,7 @@ function CreateProduct() {
       if (!isAdmin) return alert("You're not an admin");
       setLoading(true);
       await axios.post(
-        "https://achieverscircle.herokuapp.com/api/destroy",
+        "http://localhost:8080/api/destroy",
         { public_id: images.public_id },
         {
           headers: { Authorization: token },
@@ -114,7 +114,7 @@ function CreateProduct() {
 
       if (onEdit) {
         await axios.put(
-          `https://achieverscircle.herokuapp.com/api/products/${product._id}`,
+          `http://localhost:8080/api/products/${product._id}`,
           { ...product, images },
           {
             headers: { Authorization: token },
@@ -122,7 +122,7 @@ function CreateProduct() {
         );
       } else {
         await axios.post(
-          "https://achieverscircle.herokuapp.com/api/products",
+          "http://localhost:8080/api/products",
           { ...product, images },
           {
             headers: { Authorization: token },

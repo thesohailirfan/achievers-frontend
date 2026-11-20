@@ -15,7 +15,7 @@ function Register() {
     const registerSubmit = async e =>{
         e.preventDefault()
         try {
-            await axios.post('https://achieverscircle.herokuapp.com/user/register', {...user})
+            await axios.post('http://localhost:8080/user/register', {...user})
             
             window.location.href = "/";
         } catch (err) {

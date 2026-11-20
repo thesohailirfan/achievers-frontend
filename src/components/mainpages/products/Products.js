@@ -45,10 +45,10 @@ function Products() {
     const deleteProduct = async(id, public_id) => {
         try {
             setLoading(true)
-            const destroyImg = axios.post('https://achieverscircle.herokuapp.com/api/destroy', {public_id},{
+            const destroyImg = axios.post('http://localhost:8080/api/destroy', {public_id},{
                 headers: {Authorization: token}
             })
-            const deleteProduct = axios.delete(`https://achieverscircle.herokuapp.com/api/products/${id}`, {
+            const deleteProduct = axios.delete(`http://localhost:8080/api/products/${id}`, {
                 headers: {Authorization: token}
             })
 
@@ -82,7 +82,7 @@ function Products() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        await axios.post('https://achieverscircle.herokuapp.com/api/', {firstName: firstName, lastName: lastName, email: email, phone: phone})
+        await axios.post('http://localhost:8080/api/', {firstName: firstName, lastName: lastName, email: email, phone: phone})
         setFirstName("");
         setLastName("");
         setEmail("");

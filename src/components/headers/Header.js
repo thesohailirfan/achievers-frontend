@@ -14,7 +14,7 @@ function Header() {
     const [cart] = state.userAPI.cart
     // console.log(state.userAPI.isLogged);
     const logoutUser = async () =>{
-        await axios.get('https://achieverscircle.herokuapp.com/user/logout')
+        await axios.get('http://localhost:8080/user/logout')
         
         localStorage.removeItem('firstLogin')
         localStorage.removeItem('accesstoken')

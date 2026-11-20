@@ -13,7 +13,7 @@ function CareersAPI() {
 
     useEffect(() =>{
         const getProducts = async () => {
-            const res = await axios.get(`https://achieverscircle.herokuapp.com/api/careers?limit=${page*9}&${category}&${sort}&title[regex]=${search}`)
+            const res = await axios.get(`http://localhost:8080/api/careers?limit=${page*9}&${category}&${sort}&title[regex]=${search}`)
             setProducts(res.data.products)
             setResult(res.data.result)
         }
